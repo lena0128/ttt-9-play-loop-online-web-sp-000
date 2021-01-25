@@ -38,9 +38,7 @@ end
 # Define your play method below
 
 def play(board)
-counter = 0
-unless counter == 10
+9.times do
   turn(board)
-  counter += 1
   end
 end
